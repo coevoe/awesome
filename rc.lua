@@ -111,7 +111,7 @@ local browser = "brave"
 local steam = "steam"
 local discord = "discord"
 local thndbird = "thunderbird"
-local filebrw = "pcmanfm"
+local filebrw = "thunar"
 local terminal = "alacritty"
 local inkscape = "inkscape"
 local hptoolbox = "hp-toolbox"
@@ -649,7 +649,7 @@ globalkeys = gears.table.join(
 	end, { description = "Open Inkscape", group = "Programs" }),
 	awful.key({ mod, "Shift" }, "f", function()
 		awful.spawn(filebrw)
-	end, { description = "Open PCManFM", group = "Programs" }),
+	end, { description = "Open Thunar", group = "Programs" }),
 	awful.key({ mod, "Shift" }, "d", function()
 		awful.spawn(discord)
 	end, { description = "Open Discord", group = "Programs" }),
