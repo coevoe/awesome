@@ -87,7 +87,7 @@ local cyan = "#56b6c2"
 local HOMEDIR = "/home/oizero/"
 local WORKDIR = HOMEDIR .. ".config/awesome/"
 local CONFDIR = HOMEDIR .. ".config/"
-local SCRIPTD = HOMEDIR .. ".local/bin/"
+local SCRIPTD = HOMEDIR .. ".local/bin/scripts/"
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
@@ -394,7 +394,7 @@ awful.screen.connect_for_each_screen(function(s)
 	})
 	-- Create the wibox
 	s.mywibox =
-	awful.wibar({ position = "top", screen = s, width = 1600, height = 26, margins = { top = 0, bottom = 0 } })
+	awful.wibar({ position = "top", screen = s, width = 2560, height = 36, margins = { top = 0, bottom = 0 } })
 
 	-- Add widgets to the wibox
 	s.mywibox:setup({
