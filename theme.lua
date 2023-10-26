@@ -11,7 +11,7 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font = "sans 8"
+theme.font = "sans 12"
 
 theme.bg_widget = "#373B41"
 theme.bg_normal = "#282c34"
@@ -32,7 +32,7 @@ theme.border_normal = "#000000"
 theme.border_focus = "#61afef"
 theme.border_marked = "#91231c"
 
-theme.taglist_font = "sans 8"
+theme.taglist_font = "sans 12"
 theme.taglist_spacing = 0
 theme.taglist_bg_focus = "#61afef"
 theme.taglist_fg_focus = "#ffffff"
@@ -82,7 +82,7 @@ theme.taglist_squares_sel = theme_assets.taglist_squares_sel(taglist_square_size
 theme.taglist_squares_unsel = theme_assets.taglist_squares_unsel(taglist_square_size, theme.taglist_fg_focus)
 
 -- Variables set for theming notifications:
-theme.notification_font = "sans 8"
+theme.notification_font = "sans 12"
 theme.notification_bg = "#282c34"
 theme.notification_fg = "#abb2bf"
 theme.notification_border_width = dpi(1)
@@ -171,7 +171,7 @@ theme.icon_color_disk = "#c678dd"
 theme.icon_color_temp = "#e5c07b"
 theme.icon_color_cpu = "#e06c75"
 theme.icon_color_net = "#61afef"
-theme.icon_font = "Font Awesome 6"
+theme.icon_font = "Font Awesome 10"
 theme.icon_theme = "/usr/share/icons/Papirus-Dark"
 
 -- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80
