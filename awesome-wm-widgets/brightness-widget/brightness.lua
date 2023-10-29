@@ -51,6 +51,11 @@ local function worker(user_args)
         set_brightness_cmd = 'light -S %d' -- <level>
         inc_brightness_cmd = 'light -A ' .. step
         dec_brightness_cmd = 'light -U ' .. step
+    elseif program == 'blight' then
+        get_brightness_cmd = 'blight get'
+        set_brightness_cmd = 'blight set %d' -- <level>
+        inc_brightness_cmd = 'blight set ' .. step .. "%"
+        dec_brightness_cmd = 'blight set -' .. step .. "%"
     elseif program == 'xbacklight' then
         get_brightness_cmd = 'xbacklight -get'
         set_brightness_cmd = 'xbacklight -set %d' -- <level>
